@@ -78,7 +78,9 @@ export const CreateTaskModal = ({ open, setOpen, setTasks }) => {
             />
           </div>
           <div className="mb-3">
-            <button type="submit" className="rounded bg-black text-white transition hover:opacity-80 w-full py-1 px-2">Create Task</button>
+            <button type="submit" 
+              className="px-6 py-1 bg-cyan-700 text-white font-medium rounded-lg shadow-md hover:bg-cyan-900 transition-colors duration-300 text-center w-full"
+            >Create Task</button>
           </div>
         </form>
       </div>

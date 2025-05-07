@@ -21,9 +21,11 @@ export const TodoPage = () => {
 
   return (
     <Main>
-      <div id='todo-page'>
+      <div id='todo-page' className='min-h-[80vh]'>
         <h1 className='mb-3'>Your To-Do List</h1>
-        <button className="rounded bg-black text-white py-1 px-2 mb-3" onClick={() => setOpen(true)}>Create</button>
+        <button 
+          className="px-6 py-1 bg-cyan-700 text-white font-medium rounded-lg shadow-md hover:bg-cyan-900 transition-colors duration-300 text-center min-w-[150px]"
+          onClick={() => setOpen(true)}>Create Task</button>
         <section className='w-full mb-3'>
           <TaskTable tasks={tasks} setTasks={setTasks} />
         </section>

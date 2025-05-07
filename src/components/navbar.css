@@ -1,5 +1,5 @@
 #top-nav {
-  @apply bg-teal-100;
+  @apply bg-blue-600 text-white;
   position: sticky;
   top: 0;
   width: 100%;
@@ -8,6 +8,7 @@
 
 #top-nav > .container {
   display: flex;
+  max-width: 56rem;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
@@ -36,5 +37,5 @@
 
 
 #top-nav .nav-links .nav-link:hover {
-  background-color: white;
+  @apply bg-blue-800;
 }

@@ -10,17 +10,17 @@ export const IndexPage = () => {
 
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
-            to="/contact"
-            className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300 text-center min-w-[150px]"
-          >
-            Contact Page
-          </Link>
-
-          <Link
             to="/todo"
             className="px-6 py-3 bg-green-600 text-white font-medium rounded-lg shadow-md hover:bg-green-700 transition-colors duration-300 text-center min-w-[150px]"
           >
             Todo List
+          </Link>
+
+          <Link
+            to="/contact"
+            className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300 text-center min-w-[150px]"
+          >
+            Contact Page
           </Link>
         </div>
       </div>
