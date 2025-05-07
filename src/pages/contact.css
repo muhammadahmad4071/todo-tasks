@@ -1,4 +1,7 @@
 #contact-page {
+  @apply flex-1;
+  margin-top: auto;
+  margin-bottom: auto;
   display: flex;
   align-items: center;
   justify-content: center;

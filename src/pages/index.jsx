@@ -5,7 +5,7 @@ import { Main } from '../layouts/main'
 export const IndexPage = () => {
   return (
     <Main>
-      <div className="flex flex-col items-center justify-center min-h-[80vh] p-6">
+      <div className="flex flex-col items-center justify-center min-h-[80vh] p-6 flex-1">
         <h1 className="text-4xl font-bold mb-8 text-center">Welcome to To-Do</h1>
 
         <div className="flex flex-col sm:flex-row gap-4">

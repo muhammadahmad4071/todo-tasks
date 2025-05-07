@@ -4,9 +4,9 @@ import { Navbar } from '../components/navbar'
 
 export const Main = ({ children }) => {
   return (
-    <div className='relative min-h-screen'>
+    <div className='relative min-h-screen flex flex-col'>
       <Navbar />
-      <main>{children}</main>
+      <main className='flex-1 flex'>{children}</main>
       <Footer />
     </div>
   )
