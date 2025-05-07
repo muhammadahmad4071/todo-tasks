@@ -1,17 +1,40 @@
-::root {
-  --gray-green: #E7F2E4;
-  --gray-blue: #B2C6D5;
-  --maroon: #732255;
-  --red: #E55050;
-}
-
 #top-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @apply bg-teal-100;
   position: sticky;
   top: 0;
   width: 100%;
   padding: 1rem;
-  background-color: #E7F2E4;
+}
+
+#top-nav > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+#top-nav .logo {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+#top-nav .nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 1rem;
+}
+
+#top-nav .nav-links .nav-link {
+  @apply transition;
+
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  background-color: transparent;
+}
+
+
+#top-nav .nav-links .nav-link:hover {
+  background-color: white;
 }

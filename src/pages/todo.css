@@ -1,0 +1,11 @@
+#todo-page {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+#todo-page h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
