@@ -1,0 +1,17 @@
+::root {
+  --gray-green: #E7F2E4;
+  --gray-blue: #B2C6D5;
+  --maroon: #732255;
+  --red: #E55050;
+}
+
+#top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #E7F2E4;
+}
